@@ -1,5 +1,5 @@
-# start_template
-start template for  frontend
+# Стартовый шаблон<br>start_template
+start template for  frontend<br>
 Стартовый шаблон для фронтенд
 
 Основа сборки позаимствована <a href="https://github.com/agragregra/start_html">здесь</a>. 
