@@ -30,7 +30,4 @@ start template for  frontend<br>
 	~~~
 	gulp
 	~~~
-5. Livereload  
-	~~~
-	localhost:8080
-	~~~
+5. Livereload  => localhost:8080
