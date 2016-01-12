@@ -6,19 +6,31 @@ start template for  frontend<br>
 Большое спасибо автору! 
 
 1. Копируем репозиторий.
+	~~~	
+	git clone https://github.com/MikhalevValentin/start_template.git
+	~~~
 
-2. Устанавливаем Gulp ->  npm install --save-dev gulp
+2. Устанавливаем Gulp  и плагины  
+	~~~
+	npm install
+	~~~
 
-3. Устанавливаем плагины:
-	- npm install --save-dev gulp-autoprefixer
-	- npm install --save-dev gulp-concat-css
-	- npm install --save-dev gulp-livereload
-	- npm install --save-dev gulp-connect
-	- npm install --save-dev gulp-minify-css
-	- npm install --save-dev gulp-notify
-	- npm install --save-dev gulp-rename
-	- npm install --save-dev gulp-sass
-    - npm install --save-dev gulp-uglify
+	Плагины, которые вошли в сборку:
+	- gulp-autoprefixer
+	- gulp-concat-css
+	- gulp-livereload
+	- gulp-connect
+	- gulp-minify-css
+	- gulp-notify
+	- gulp-rename
+	- gulp-sass
+    - gulp-uglify
 
-4. Запускаем -> gulp
-5. Livereload ->  localhost:8080
+4. Запускаем gulp 
+	~~~
+	gulp
+	~~~
+5. Livereload  
+	~~~
+	localhost:8080
+	~~~
