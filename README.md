@@ -6,22 +6,24 @@ start template for  frontend<br>
 Большое спасибо автору! 
 
 <h2>Что вошло в сборку:</h2>
-1 SASS - препроцессор;
-2 Gulp - сборщик проектов;
-    Плагины, которые вошли в сборку:
-	- gulp-autoprefixer
-	- gulp-concat-css
-	- gulp-livereload
-	- gulp-connect
-	- gulp-minify-css
-	- gulp-notify
-	- gulp-rename
-	- gulp-sass
-    - gulp-uglify
+1 SASS - препроцессор;<br>
+2 Gulp - сборщик проектов;<br>
+    Плагины, которые вошли в сборку:<br>
+    <ul>
+        <li>- gulp-autoprefixer</li>
+        <li>- gulp-concat-css</li>
+        <li>- gulp-livereload</li>
+        <li>- gulp-connect</li>
+        <li>- gulp-minify-css</li>
+        <li>- gulp-notify</li>
+        <li>- gulp-rename</li>
+        <li>- gulp-sass</li>
+        <li>- gulp-uglify</li>
+    </ul>
     
-3 Bower - пакетный менеджер;
-    - Libsass Compass Vertical Rhythm - типографический ритм страниц;
-    - Susy Grid - "умная" сетка; 
+3 Bower - пакетный менеджер;<br>
+    - Libsass Compass Vertical Rhythm - типографический ритм страниц;<br>
+    - Susy Grid - "умная" сетка; <br>
 
 <h2>Старт проекта:</h2>
 
@@ -44,4 +46,7 @@ start template for  frontend<br>
 	~~~
 	gulp
 	~~~
-5. Открываем в браузере  ~~~ http://localhost:8080 ~~~
+5. Открываем в браузере  
+    ~~~ 
+    http://localhost:8080 
+    ~~~
