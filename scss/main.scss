@@ -1,3 +1,19 @@
+@import "../bower_components/susy/sass/susy";
+@import "../bower_components/libsass-compass-vertical-rhythm/lib/compass_rhythm";
+
+//susy
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+	container: 60em,
+	math: fluid,
+	output: float,
+	gutter-position: inside
+);
+
+
+
+//some base rules
 *::-webkit-input-placeholder {
     color: #454546;
     opacity: 1;
@@ -50,6 +66,11 @@ html.js .loader_inner {
     position: absolute;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-size: 16px;
     min-width: 320px;
@@ -62,3 +83,102 @@ body {
 .hidden {
     display: none;
 }
+
+/* Some typography rules */
+h1 {
+  font-size: 34px;
+  font-size: 2.125rem;
+  line-height: 44px;
+  line-height: 2.75rem;
+  margin-top: 22px;
+  margin-top: 1.375rem;
+  margin-bottom: 22px;
+  margin-bottom: 1.375rem;
+}
+
+h2 {
+  font-size: 30px;
+  font-size: 1.875rem;
+  line-height: 44px;
+  line-height: 2.75rem;
+  margin-top: 22px;
+  margin-top: 1.375rem;
+  margin-bottom: 22px;
+  margin-bottom: 1.375rem;
+}
+
+h3 {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 22px;
+  line-height: 1.375rem;
+  margin-top: 22px;
+  margin-top: 1.375rem;
+  margin-bottom: 22px;
+  margin-bottom: 1.375rem;
+}
+
+h4 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 22px;
+  line-height: 1.375rem;
+  margin-top: 22px;
+  margin-top: 1.375rem;
+  margin-bottom: 22px;
+  margin-bottom: 1.375rem;
+}
+
+p {
+  margin-top: 22px;
+  margin-top: 1.375rem;
+  margin-bottom: 22px;
+  margin-bottom: 1.375rem;
+}
+
+#wrap {
+    @include container();
+	// Using Compass Vertical Rhythm
+	@include margin-trailer(2);
+	@include margin-leader(2);
+    background-color: #ddd;
+    
+    @media screen and (max-width: 768px) {
+		margin: 0;
+	}
+}
+
+#top {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 3rem;
+    border-bottom: 1px solid #454546;
+}
+
+#logo {
+    @include span(4);
+}
+
+.naw {
+    @include container();
+    // Using Compass Vertical Rhythm
+	@include margin-trailer(1);
+	@include margin-leader(1);
+}
+
+.naw ul {
+    @include span(8 last);
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    li {
+        display: inline-block;
+        float: right;
+        margin-left: 2rem;
+    }
+}
+
+
+
+

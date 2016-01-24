@@ -1,0 +1,15 @@
+{
+  "name": "start_template",
+  "description": "start_template_frontent",
+  "main": "",
+  "authors": [
+    "Mikhalev Valentin"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/MikhalevValentin/start_template",
+  "moduleType": [],
+  "dependencies": {
+    "libsass-compass-vertical-rhythm": "~1.0.0",
+    "susy": "~2.2.11"
+  }
+}
