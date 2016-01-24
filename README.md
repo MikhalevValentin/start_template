@@ -1,6 +1,4 @@
-# Стартовый шаблон<br>start_template
-start template for  frontend<br>
-Шаблон для быстрого старта проекта
+# Шаблон для быстрого старта проекта<br>
 
 Часть сборки (а точнее, организация файлов в папке "/app") позаимствована <a href="https://github.com/agragregra/start_html">здесь</a>.
 Большое спасибо автору! 
@@ -9,7 +7,7 @@ start template for  frontend<br>
 1 SASS - препроцессор;<br>
 2 Gulp - сборщик проектов;<br>
     Плагины, которые вошли в сборку:<br>
-    <ul>
+    <ul style="list-style-type: none;">
         <li>- gulp-autoprefixer</li>
         <li>- gulp-concat-css</li>
         <li>- gulp-livereload</li>
@@ -46,7 +44,7 @@ start template for  frontend<br>
 	~~~
 	gulp
 	~~~
-5. Открываем в браузере  
-    ~~~ 
-    http://localhost:8080 
-    ~~~
+5. Открываем в браузере 
+    <pre>
+        <code>http://localhost:8080</code>
+    </pre>
