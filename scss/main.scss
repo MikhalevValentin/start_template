@@ -11,7 +11,14 @@ $susy: (
 	gutter-position: inside
 );
 
+/*
+  //Add container
+  @include container();
 
+  //Using Compass Vertical Rhythm
+  @include margin-trailer(1);
+  @include margin-leader(1);
+*/
 
 //some base rules
 *::-webkit-input-placeholder {
@@ -135,50 +142,3 @@ p {
   margin-bottom: 22px;
   margin-bottom: 1.375rem;
 }
-
-#wrap {
-    @include container();
-	// Using Compass Vertical Rhythm
-	@include margin-trailer(2);
-	@include margin-leader(2);
-    background-color: #ddd;
-    
-    @media screen and (max-width: 768px) {
-		margin: 0;
-	}
-}
-
-#top {
-    display: block;
-    width: 100%;
-    height: auto;
-    min-height: 3rem;
-    border-bottom: 1px solid #454546;
-}
-
-#logo {
-    @include span(4);
-}
-
-.naw {
-    @include container();
-    // Using Compass Vertical Rhythm
-	@include margin-trailer(1);
-	@include margin-leader(1);
-}
-
-.naw ul {
-    @include span(8 last);
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    li {
-        display: inline-block;
-        float: right;
-        margin-left: 2rem;
-    }
-}
-
-
-
-
