@@ -10,6 +10,7 @@ var connect = require('gulp-connect');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var minifyCSS = require('gulp-minify-css');
+var open = require('gulp-open');
 
 //server connect
 gulp.task('connect', function () {
@@ -48,6 +49,16 @@ gulp.task('html', function () {
         .pipe(connect.reload());
 });
 
+//open
+gulp.task('open', function(){
+  var options = {
+    uri: 'localhost:8080',
+    app: 'firefox'
+  };
+  gulp.src('app/index.html')
+  .pipe(open(options));
+});
+
 //watch
 gulp.task('watch', function () {
     gulp.watch('scss/*.scss', ['css'])
@@ -56,4 +67,4 @@ gulp.task('watch', function () {
 });
 
 //default
-gulp.task('default', ['connect', 'html', 'css', 'js', 'watch']);
+gulp.task('default', ['connect', 'html', 'css', 'js','open', 'watch']);
