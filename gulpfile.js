@@ -64,7 +64,7 @@ gulp.task('watch', function () {
     gulp.watch('scss/*.scss', ['css'])
     gulp.watch('js/*.js', ['js'])
     gulp.watch('app/index.html', ['html'])
-})
+});
 
 //default
 gulp.task('default', ['connect', 'html', 'css', 'js', 'open', 'watch']);
